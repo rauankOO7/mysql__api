@@ -9,7 +9,7 @@ const dbConfig = {
     host: 'database-2.cqwf42xdocit.us-east-1.rds.amazonaws.com',        // e.g., 'localhost'
     user: 'admin',        // your MySQL username
     password: 'password123456', // your MySQL password
-    database: 'password123456'  // your database name
+    database: 'your_database_name'  // your database name
 };
 
 // Create a MySQL connection
