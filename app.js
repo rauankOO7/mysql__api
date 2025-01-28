@@ -6,10 +6,10 @@ const PORT = process.env.PORT || 3000;
 
 // Database connection configuration
 const dbConfig = {
-    host: 'your_host',        // e.g., 'localhost'
-    user: 'your_user',        // your MySQL username
-    password: 'your_password', // your MySQL password
-    database: 'your_database'  // your database name
+    host: 'database-2.cqwf42xdocit.us-east-1.rds.amazonaws.com',        // e.g., 'localhost'
+    user: 'admin',        // your MySQL username
+    password: 'password123456', // your MySQL password
+    database: 'password123456'  // your database name
 };
 
 // Create a MySQL connection
