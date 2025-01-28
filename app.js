@@ -25,8 +25,14 @@ connection.connect(err => {
 });
 
 // Define a route to fetch data
+
+app.get("/",(req,res) => {
+
+    res.json("hey from server")
+    
+})
 app.get('/fetch-data', (req, res) => {
-    const query = 'SELECT * FROM your_table'; // Replace 'your_table' with your actual table name
+    const query = 'SELECT * FROM test_table'; // Replace 'your_table' with your actual table name
     connection.query(query, (err, results) => {
         if (err) {
             console.error('Error fetching data:', err);
